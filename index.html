@@ -8,13 +8,13 @@
   <link
         href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap"
         rel="stylesheet">
-  <title>Weather App</title>
+  <title>天氣氣象</title>
 </head>
 <body>
   <div class="container">
     <div class="search-box">
       <i class="fa-solid fa-location-dot"></i>
-      <input type="text" placeholder="Please Enter You Location:">
+      <input type="text" placeholder="輸入地點:">
       <button class="fa-sharp fa-solid fa-magnifying-glass"></button>
     </div>
 
@@ -22,31 +22,31 @@
       <img src="imgs/error.png">
       <p>哇哇錯誤地點~~找不到</p>
     </div>
-  </div>
-  <div class="weather-box">
-    <img src="">
-      <p class="temp"></p>
-      <p class="desc"></p>
-    </img>
-  </div>
+  
+    <div class="weather-box">
+      <img src="">
+        <p class="temp"></p>
+        <p class="desc"></p>
+      </img>
+    </div>
 
-  <div class="weather-details">
-    <div class="humidity">
-      <i class="fa-solid fa-water"></i>
-      <div class="text">
-        <span></span>
-        <p>濕度:</p>
+    <div class="weather-details">
+      <div class="humidity">
+        <i class="fa-solid fa-water"></i>
+        <div class="text">
+          <span></span>
+          <p>濕度:</p>
+        </div>
+      </div>
+      <div class="wind">
+        <i class="fa-solid fa-wind"></i>
+        <div class="text">
+          <span></span>
+          <p>風速:</p>
+        </div>
       </div>
     </div>
-    <div class="wind">
-      <i class="fa-solid fa-wind"></i>
-      <div class="text">
-        <span></span>
-        <p>風速:</p>
-      </div>
-    </div>
   </div>
-
   <script src="https://kit.fontawesome.com/8de53d4298.js" crossorigin="anonymous"></script>
   <script src="app.js"></script>
 </body>

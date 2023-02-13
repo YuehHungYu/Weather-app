@@ -13,3 +13,59 @@ body{
   justify-content: center;
   background: rgb(255,212,230);
 }
+
+.container{
+  position: relative;
+  width: 500px;
+  height: 100px;
+  background: #fff;
+  padding: 25px 30px ;
+  overflow: hidden;
+  border-radius:20px ;
+  font-family: 'Roboto',sans-serif;
+}
+
+.search-box{
+  width: 100%;
+  height: min-content;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.search-box input{
+  color: rgb(63, 50, 33);
+  width: 80%;
+  font-size: 26px;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding-left: 30px;
+}
+
+.search-box input::placeholder{
+  font-size: 20px;
+  font-weight: 500;
+  color: black;
+}
+
+.search-box button{
+  cursor: pointer;
+  height: 50px;
+  width: 50px;
+  color: rgb(245, 242, 242);
+  background: rgb(0, 94, 125);
+  border-radius: 50%;
+  font-size: 20px;
+  transition: 0.4s ease;
+}
+
+.search-box button:hover{
+  color: #000000;
+  background: rgb(144, 223, 249);
+}
+
+.search-box i{
+  position: absolute;
+  color:red;
+  font-size: 30px;
+}
