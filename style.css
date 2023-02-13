@@ -17,7 +17,7 @@ body{
 .container{
   position: relative;
   width: 500px;
-  height: 600px; /*TODO*/
+  height: 100px;
   background: #fff;
   padding: 25px 30px ;
   overflow: hidden;
@@ -167,4 +167,16 @@ body{
 .weather-box,.weather-details{
   scale: 0;
   opacity: 0;
+}
+
+.in{
+  animation: 0.5s In forwards;
+  animation-delay: 0.5s; 
+}
+
+@keyframes In{
+  to{
+    opacity: 1;
+    scale: 1;
+  }
 }
