@@ -143,3 +143,28 @@ body{
   font-size: 16px;
   font-weight: 500;
 }
+
+.not-found{
+  width: 100%;
+  text-align: center;
+  margin-top: 50px;
+  scale: 0;
+  opacity: 0;
+  display: none;
+}
+
+.not-found img{
+  width: 70%;
+}
+
+.not-found p{
+  font-size: 20px;
+  color: darkcyan;
+  font-weight: 500;
+  margin-top: 12px;
+}
+
+.weather-box,.weather-details{
+  scale: 0;
+  opacity: 0;
+}
